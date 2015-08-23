@@ -14,7 +14,7 @@ In the present document we use the _Weight Lifting Exercises Database_ that took
 #Data Analysis
 First we load the data and needed libraries. Note that in the original csv file there are many instances of "#DIV/0!" strings that will be read as NAs. We also remove the first seven columns as they consist of book-keeping variables that are not required for predictive purposes.
 
-```{r, loadingData,echo=FALSE}
+```{r, loadingData}
 library(caret)
 library(randomForest)
 set.seed(1979)
